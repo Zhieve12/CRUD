@@ -21,13 +21,13 @@
                 }
                 echo "<br/><a href='javascript:self.history.back();'>GO BACK</a>";
                 }
-            }
+            
             else {
                 $result = mysqli_query($dbc, "INSERT INTO tblsubject(subject_code, subject_name) VALUES ($code,$name)");
 
                 echo "<font color='green'>DATA ADDED SUCCESSFULLY";
                 echo "<br/><a href='../index.php'>VIEW RESULT</a>"; 
             }
-        
+        }
 </body>
 </html>
