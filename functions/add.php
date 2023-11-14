@@ -29,5 +29,6 @@
                 echo "<br/><a href='../index.php'>VIEW RESULT</a>"; 
             }
         }
+        ?>
 </body>
 </html>
