@@ -26,7 +26,7 @@
                 $result = mysqli_query($dbc, "INSERT INTO tblsubject(subject_code, subject_name) VALUES ($code,$name)");
 
                 echo "<font color='green'>DATA ADDED SUCCESSFULLY";
-                echo "<br/><a href='../index.php'>VIEW RESULT</a>";
+                echo "<br/><a href='../index.php'>VIEW RESULT</a>"; 
             }
         
 </body>
